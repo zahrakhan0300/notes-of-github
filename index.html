@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <hr>
+    <h3>Name: Sami Ahmad</h3>
+    <h3>Roll Number: BSEF19M045</h3>
+    <hr>
+
+    <h1 style="text-align:center;"><i><u> GITHUB  </u></i></h1>
+    <p>• List of GITHUB Commands</p>
+    <ol type="i">
+        <li>git config --global user.name userName</li>
+        <li>git config --global user.email userEmail</li>
+        <li>git init</li>
+        <li>git status</li>
+        <li>git add fileName.fileExtension</li>
+        <li>git add .</li>
+        <li>git commit</li>
+        <li>git remote add origin #url</li>
+        <li>git remote</li>
+        <li>git push</li>
+    </ol>
+    <h2>Why Github</h2>
+    <dl>
+        <dd>
+            <ol>
+                <li>Github is used to save code and to share it with others. Suppose I want to save the code 
+            so I can use it afterwards, I will use github repository.</li>
+            <br>
+            <li>Also, take another scenerio, if you are making an application, and there are hundreds of files and hundreds of programmers
+            or developers are working there, so you would need git repository so everybody can access 
+            same versions of file all the time. Every programmer will get same copy of the file. If new 
+            programmers are added they do need to copy all stuffs or anything, they just need to run 
+            few commands and they would have all the project in front of them. </li>
+            <br>
+            <li>It also helps us to track changes in our project. Consider, for example, our application was working fine, we just 
+            added new feature and many functions behave weirdly, because of that. We can say bugs 
+            appeared. If your application community is considerably high, then it would definitely
+            create problem, so by using git we can revert back to the stabe version of application 
+            easily and lunch the other one when bugs have been resolved. So git hve mutiple benefits. </li>
+        </dd>
+    </dl>
+    <h2>How Git Works</h2>
+    <p>For understanding of git, just see this image</p>
+    <br>
+    <img src="img.png" class="center">
+    <ol>
+        <li>There are 4 stages of a file <i>Untracked</i>, <i>Unmodified</i>, <i>Modified</i>, <i>Staged</i></li>
+        <li>Initially, file is untracked and we need to tell github to please track changes in our files</li>
+        <li>So first, we need to add files to staged area</li>
+        <li>It is similar to the example, we are ready and posed correctly for the camera-man to click photo.</li>
+        <li>Then we make changes in the file, that is add code</li>
+        <li>The status of file is now <i>Modified</i></li>
+        <li>To commit, we again add that file to staging area, and then commit those changes</li>
+    </ol>
+    <h2>Procedure</h2>
+    <ol type="1">
+        <li>Download git from the link: <a href="https://git-scm.com/download/win" target="_blank">https://git-scm.com/download/win</a></li>
+        <li>Install it with default options</li>
+        <li>Now open your project folder where you are working on any IDE, 
+            run COMMAND PROMPT or GIT BASH there.</li>
+        <li>Now, you need to add commands.</li>
+        <li>Use command <i> git config --global user.name userName</i> to tell that all changes are made by xyz person</li>
+        <li>Use command <i> git config --global user.email userEmail</i> to tell that changes in the project are made by xyz person having email abc</li>
+
+        <li>Then use command <i>git init</i></li>
+        <li>This will create a new empty Git Repository</li>
+        <li>Now we will move files to the staged area. But before that run command <i>git status</i> to know status of your files. It will show the list of files that are untracked</li>
+        <img src="gitStatus.png" alt="">
+        <p>Showing the untracked files in red color</p>
+        <li>So, to add files to be able to track, we need to send it to staging area. For that use command <i>git add . (Add all files)</i> or <i>git add fileName (add file with specific name)</i></li>
+        <img src="img1.png" alt="">
+        <li>Now you can begin doing work on your project. After a specific amount of work is done, you need to commit the changes.</li>
+        <li>Run command git status and see that it will show the list of files that are modified. </li>
+            <img src="gitCommit.png" alt="">
+        <li>Use command <i>git commit -m "_message to know what changes you've done"</i> to commit those changes</li>
+        <li>Now, the changes are pushed to the created repository</li>
+        <img src="gitCommitDone.png" alt="">
+        <li>Create or login your account on github.com</li>
+        <li>Create a new repository there. Make sure to set it public</li>
+        <li>Open it to know link of your repository and other links and commands as you can see in image</li>
+        <img src="gitLink.png" alt="">
+        <li>We are now going to transferring files from our local repository to online repository</li>
+        <li>Use command <i>git remote add _name #url</i> where origin act as name and url is the url of your repository.</li>
+        <li>You can also check name of remore by command <i>git remote</i></li>
+        <li>Use command <i>git remote -v</i> to know the links of where to fetch or push the local repository</li>
+        <img src="gitRemote.png" alt="">
+        <li>Then use final command <i>git pull</i></li>
+
+    </ol>
+<<<<<<< HEAD
+    <p>Done</p>
+    <h1>GIT CLONE</h1>
+    <p>Checks</p>
+=======
+>>>>>>> 85af4d38786dbd4cf6de24bca5ff2fa1b31b77e7
+</ol>
+</body>
+</html>
